@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9C835F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* MENU AWAL dan TOMBOL BACK  */
+.menu{
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    /* background-color: cornflowerblue; */
+    padding-right: 10px;
+    margin: 20px auto;
+}
+
+.menu > div{
+    display: flex;
+    /* background-color: y ellow; */
+    color: #F9B23D;
+    margin: 5px;
+}
+.menu > div p{
+    margin: auto;
+}
+
+/* MAIN GAME  */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #F9B23D; */
+    width: 700px;
+    margin: auto;
+    margin-top: 25px;
+}
+.grid-item{
+    /* background-color: aliceblue; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    border-radius: 30px;
+    height: 204px;
+    width: 223px;
+}
+.pemain{
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+.batu1{
+    background-image: url(../images/batu.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.batu{
+    background-image: url(../images/batu.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.kertas1{
+    background-image: url(../images/kertas.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+.kertas{
+    background-image: url(../images/kertas.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+.gunting1{
+    background-image: url(../images/gunting.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 140px;
+}
+.gunting{
+    background-image: url(../images/gunting.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 140px;
+}
+.vs{
+    background-image: url(../images/VS.png);
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+.batu1:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+}
+.kertas1:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+}
+.gunting1:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+}
+.batu1:active{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+    background-color: #c4c4c4
+}
+.kertas1:active{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+    background-color: #c4c4c4
+}
+.gunting1:active{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c4c4;
+    background-color: #c4c4c4
+}
+
+
+
+/* RESTART */
+.restart{
+    width: 130px;
+    height: 100px;
+    margin: auto;
+    /* background-color: #F9B23D; */
+    background-image: url(../images/refresh.png);
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.restart:hover{
+    background-color:#F9B23D ;
+}
+
+
+
+

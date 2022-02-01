@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-let users = require('../db/users.json')
+// let users = require('../db/users.json')
 
 let isLogin = false
 
